@@ -1,0 +1,4 @@
+representation,dimensionality,reduction_method,val_accuracy,val_macro_f1,test_accuracy,test_macro_f1,compression_ratio
+Full TF-IDF,1500,None,0.7544,0.5828,-,-,1.0x (Baseline)
+TruncatedSVD Components,50,TruncatedSVD (Randomized),0.5722,0.4365,0.5513,0.4214,30.0x reduction
+Engineered Structured,16,Domain Feature Engineering,0.5725,0.4369,-,-,93.8x reduction

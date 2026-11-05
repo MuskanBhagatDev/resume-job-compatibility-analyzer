@@ -1,0 +1,11 @@
+Column_Name,Data_Type,Corr_Final_Score,Corr_Label_Strength,Leakage_Risk_Level,Leakage_Mechanism,Verdict
+final_score,float64,1.0,0.7866,CRITICAL / TARGET,Direct Target Definition. Deterministically cut at 0.58 and 0.68 into label_strength (100% trivial accuracy).,EXCLUDE (Is Target)
+raw_score,float64,0.9138,0.7115,CRITICAL LEAKAGE,Exact Deterministic Linear Combination (R² = 1.000) of 6 sub-scores: 0.25*sem + 0.35*skill + 0.20*pos + 0.10*cat + 0.05*exp + 0.05*edu.,EXCLUDE
+semantic_score,float64,0.2839,0.2503,SYNTHETIC DERIVED SCORE,"Proprietary ground-truth heuristic scores. In real deployment, only raw resume text/attributes are available.",EXCLUDE FROM RAW ML
+skill_score,float64,0.2731,0.2069,SYNTHETIC DERIVED SCORE,"Proprietary ground-truth heuristic scores. In real deployment, only raw resume text/attributes are available.",EXCLUDE FROM RAW ML
+position_score,float64,0.2719,0.1837,SYNTHETIC DERIVED SCORE,"Proprietary ground-truth heuristic scores. In real deployment, only raw resume text/attributes are available.",EXCLUDE FROM RAW ML
+category_score,float64,0.1861,0.147,SYNTHETIC DERIVED SCORE,"Proprietary ground-truth heuristic scores. In real deployment, only raw resume text/attributes are available.",EXCLUDE FROM RAW ML
+experience_score,float64,0.3702,0.3198,SYNTHETIC DERIVED SCORE,"Proprietary ground-truth heuristic scores. In real deployment, only raw resume text/attributes are available.",EXCLUDE FROM RAW ML
+education_score,float64,0.1317,0.1254,SYNTHETIC DERIVED SCORE,"Proprietary ground-truth heuristic scores. In real deployment, only raw resume text/attributes are available.",EXCLUDE FROM RAW ML
+candidate_rank,int64,-0.4365,-0.3493,POST-HOC OUTCOME LEAKAGE,"Calculated post-hoc after evaluating all applicants against a job. At inference time for a new resume, rank is unknown.",EXCLUDE
+candidate_rank_pct,float64,0.7579,0.608,POST-HOC OUTCOME LEAKAGE,"Calculated post-hoc after evaluating all applicants against a job. At inference time for a new resume, rank is unknown.",EXCLUDE

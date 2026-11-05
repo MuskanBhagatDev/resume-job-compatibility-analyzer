@@ -1,0 +1,2 @@
+model,n_clusters,inertia,validation_silhouette,adjusted_rand_index,normalized_mutual_info,homogeneity
+K-Means (k=3),3,1030341.94,0.192,0.0212,0.0229,0.0272

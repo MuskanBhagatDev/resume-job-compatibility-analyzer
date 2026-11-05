@@ -1,0 +1,21 @@
+# Resume Job Compatibility Analyzer - Requirements
+# Academic ML Lab Mini-Project (Runs locally and on cloud without GPU)
+
+# Core ML & Scientific Computing
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+joblib>=1.3.0
+
+# Document Parsing (PDF & DOCX)
+pypdf>=4.0.0
+python-docx>=1.0.0
+
+# Interactive Demonstration Web Application
+streamlit>=1.30.0
+
+# Optional: Local Notebook Development (uncomment if using Jupyter locally)
+# jupyterlab>=4.0.0
+# ipykernel>=6.25.0

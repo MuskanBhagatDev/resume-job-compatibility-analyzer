@@ -1,0 +1,10 @@
+Model,Feature_Set,Val_Accuracy,Val_Macro_F1,Val_Weighted_F1,Test_Accuracy,Test_Macro_F1,Test_Weighted_F1,Test_Macro_Precision,Test_Macro_Recall,Test_F1_Weak,Test_F1_Medium,Test_F1_Strong,Fit_Time_Sec
+K-Nearest Neighbors (Structured),Structured (16),0.8204,0.7269,0.8193,0.8140,0.7421,0.8127,0.7706,0.7199,0.7703,0.8449,0.6111,0.12
+Support Vector Machine (All Features),"All Features (1,516)",0.8218,0.7082,0.8224,0.8180,0.6913,0.8187,0.6738,0.7142,0.7909,0.8425,0.4404,66.35
+Random Forest (Structured),Structured (16),0.8076,0.6759,0.8086,0.8056,0.6825,0.8067,0.6427,0.7949,0.7700,0.8366,0.4408,2.48
+Support Vector Machine (Selected Features),Selected Features (500),0.7779,0.6580,0.7790,0.7750,0.6401,0.7756,0.6161,0.6823,0.7354,0.8084,0.3765,27.18
+Logistic Regression (All Features),"All Features (1,516)",0.7923,0.6395,0.7995,0.7928,0.6313,0.8003,0.5979,0.8353,0.7871,0.8153,0.2914,58.77
+Backprop Neural Network (MLP),Structured (16),0.7830,0.6313,0.7892,0.7773,0.6157,0.7845,0.5841,0.7987,0.7639,0.8047,0.2786,48.79
+Logistic Regression (Selected Features),Selected Features (500),0.7386,0.5773,0.7512,0.7346,0.5653,0.7480,0.5470,0.7937,0.7356,0.7628,0.1976,24.96
+Naive Bayes (TF-IDF Text),"TF-IDF Text (1,500)",0.6414,0.4548,0.6417,0.6273,0.4405,0.6285,0.4766,0.4380,0.5986,0.6558,0.0671,0.27
+ID3 Decision Tree (Entropy),Structured (16),0.4336,0.3363,0.4575,0.4167,0.3235,0.4424,0.3991,0.5889,0.5770,0.3516,0.0419,0.51

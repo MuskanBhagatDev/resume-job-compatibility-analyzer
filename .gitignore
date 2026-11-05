@@ -1,0 +1,61 @@
+# ==============================================================================
+# Python & Bytecode Cache
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit local runtime & secrets
+.streamlit/secrets.toml
+
+# ==============================================================================
+# PROJECT SPECIFIC EXCLUSIONS
+# ==============================================================================
+
+# 1. Raw Datasets (Do NOT commit raw CSVs; > 230 MB total; cv.csv is 185 MB)
+# The raw dataset is public at huggingface.co/datasets/nonameee12233/job-resume-matching
+# Download anytime for training via: python src/download_data.py
+data/*.csv
+data/*.zip
+data/*.tar.gz
+!data/.gitkeep
+
+# 2. Large Preprocessed Training Split Cache (> 100 MB; exceeds GitHub limit)
+# preprocessed_splits.joblib is 374.14 MB and was only generated as an offline training cache.
+# The live Streamlit application loads the trained model weights directly from models/.
+models/preprocessed_splits.joblib
+
+# Preserve directory structures
+!models/.gitkeep
+!app/.gitkeep
+!outputs/plots/.gitkeep
+!outputs/results/.gitkeep
+

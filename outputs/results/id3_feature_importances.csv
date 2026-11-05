@@ -1,0 +1,17 @@
+feature,importance_entropy
+skill_count_ratio,0.3169853665666108
+years_experience,0.20473566609832958
+skill_jaccard_similarity,0.19109735636101277
+is_busi,0.14783396370721041
+category_match,0.0554912679660982
+tfidf_similarity,0.023071707795851888
+experience_gap,0.02062440747923816
+years_required,0.018152267512907456
+is_fina,0.01686572188664224
+skill_count_cv,0.005142274626098392
+resume_word_count,0.0
+job_desc_word_count,0.0
+skill_count_job,0.0
+is_info,0.0
+is_sale,0.0
+is_hr,0.0

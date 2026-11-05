@@ -1,0 +1,13 @@
+Property,Value
+Total Merged Rows,122560
+Unique Candidates,9532
+Unique Jobs,1164
+Duplicate Pairs,0
+Missing Cells,0
+Text Features Count,5
+Structured Features Count,13
+Excluded Leakage Columns Count,16
+Train Rows,85392 (69.67%)
+Validation Rows,18484 (15.08%)
+Test Rows,18684 (15.24%)
+Candidate Overlap,0 (Disjoint)
